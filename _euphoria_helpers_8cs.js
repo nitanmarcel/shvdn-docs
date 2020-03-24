@@ -1,0 +1,155 @@
+var _euphoria_helpers_8cs =
+[
+    [ "ActivePoseHelper", "class_g_t_a_1_1_natural_motion_1_1_active_pose_helper.html", "class_g_t_a_1_1_natural_motion_1_1_active_pose_helper" ],
+    [ "ApplyImpulseHelper", "class_g_t_a_1_1_natural_motion_1_1_apply_impulse_helper.html", "class_g_t_a_1_1_natural_motion_1_1_apply_impulse_helper" ],
+    [ "ApplyBulletImpulseHelper", "class_g_t_a_1_1_natural_motion_1_1_apply_bullet_impulse_helper.html", "class_g_t_a_1_1_natural_motion_1_1_apply_bullet_impulse_helper" ],
+    [ "BodyRelaxHelper", "class_g_t_a_1_1_natural_motion_1_1_body_relax_helper.html", "class_g_t_a_1_1_natural_motion_1_1_body_relax_helper" ],
+    [ "ConfigureBalanceHelper", "class_g_t_a_1_1_natural_motion_1_1_configure_balance_helper.html", "class_g_t_a_1_1_natural_motion_1_1_configure_balance_helper" ],
+    [ "ConfigureBalanceResetHelper", "class_g_t_a_1_1_natural_motion_1_1_configure_balance_reset_helper.html", "class_g_t_a_1_1_natural_motion_1_1_configure_balance_reset_helper" ],
+    [ "ConfigureSelfAvoidanceHelper", "class_g_t_a_1_1_natural_motion_1_1_configure_self_avoidance_helper.html", "class_g_t_a_1_1_natural_motion_1_1_configure_self_avoidance_helper" ],
+    [ "ConfigureBulletsHelper", "class_g_t_a_1_1_natural_motion_1_1_configure_bullets_helper.html", "class_g_t_a_1_1_natural_motion_1_1_configure_bullets_helper" ],
+    [ "ConfigureBulletsExtraHelper", "class_g_t_a_1_1_natural_motion_1_1_configure_bullets_extra_helper.html", "class_g_t_a_1_1_natural_motion_1_1_configure_bullets_extra_helper" ],
+    [ "ConfigureLimitsHelper", "class_g_t_a_1_1_natural_motion_1_1_configure_limits_helper.html", "class_g_t_a_1_1_natural_motion_1_1_configure_limits_helper" ],
+    [ "ConfigureSoftLimitHelper", "class_g_t_a_1_1_natural_motion_1_1_configure_soft_limit_helper.html", "class_g_t_a_1_1_natural_motion_1_1_configure_soft_limit_helper" ],
+    [ "ConfigureShotInjuredArmHelper", "class_g_t_a_1_1_natural_motion_1_1_configure_shot_injured_arm_helper.html", "class_g_t_a_1_1_natural_motion_1_1_configure_shot_injured_arm_helper" ],
+    [ "ConfigureShotInjuredLegHelper", "class_g_t_a_1_1_natural_motion_1_1_configure_shot_injured_leg_helper.html", "class_g_t_a_1_1_natural_motion_1_1_configure_shot_injured_leg_helper" ],
+    [ "DefineAttachedObjectHelper", "class_g_t_a_1_1_natural_motion_1_1_define_attached_object_helper.html", "class_g_t_a_1_1_natural_motion_1_1_define_attached_object_helper" ],
+    [ "ForceToBodyPartHelper", "class_g_t_a_1_1_natural_motion_1_1_force_to_body_part_helper.html", "class_g_t_a_1_1_natural_motion_1_1_force_to_body_part_helper" ],
+    [ "LeanInDirectionHelper", "class_g_t_a_1_1_natural_motion_1_1_lean_in_direction_helper.html", "class_g_t_a_1_1_natural_motion_1_1_lean_in_direction_helper" ],
+    [ "LeanRandomHelper", "class_g_t_a_1_1_natural_motion_1_1_lean_random_helper.html", "class_g_t_a_1_1_natural_motion_1_1_lean_random_helper" ],
+    [ "LeanToPositionHelper", "class_g_t_a_1_1_natural_motion_1_1_lean_to_position_helper.html", "class_g_t_a_1_1_natural_motion_1_1_lean_to_position_helper" ],
+    [ "LeanTowardsObjectHelper", "class_g_t_a_1_1_natural_motion_1_1_lean_towards_object_helper.html", "class_g_t_a_1_1_natural_motion_1_1_lean_towards_object_helper" ],
+    [ "HipsLeanInDirectionHelper", "class_g_t_a_1_1_natural_motion_1_1_hips_lean_in_direction_helper.html", "class_g_t_a_1_1_natural_motion_1_1_hips_lean_in_direction_helper" ],
+    [ "HipsLeanRandomHelper", "class_g_t_a_1_1_natural_motion_1_1_hips_lean_random_helper.html", "class_g_t_a_1_1_natural_motion_1_1_hips_lean_random_helper" ],
+    [ "HipsLeanToPositionHelper", "class_g_t_a_1_1_natural_motion_1_1_hips_lean_to_position_helper.html", "class_g_t_a_1_1_natural_motion_1_1_hips_lean_to_position_helper" ],
+    [ "HipsLeanTowardsObjectHelper", "class_g_t_a_1_1_natural_motion_1_1_hips_lean_towards_object_helper.html", "class_g_t_a_1_1_natural_motion_1_1_hips_lean_towards_object_helper" ],
+    [ "ForceLeanInDirectionHelper", "class_g_t_a_1_1_natural_motion_1_1_force_lean_in_direction_helper.html", "class_g_t_a_1_1_natural_motion_1_1_force_lean_in_direction_helper" ],
+    [ "ForceLeanRandomHelper", "class_g_t_a_1_1_natural_motion_1_1_force_lean_random_helper.html", "class_g_t_a_1_1_natural_motion_1_1_force_lean_random_helper" ],
+    [ "ForceLeanToPositionHelper", "class_g_t_a_1_1_natural_motion_1_1_force_lean_to_position_helper.html", "class_g_t_a_1_1_natural_motion_1_1_force_lean_to_position_helper" ],
+    [ "ForceLeanTowardsObjectHelper", "class_g_t_a_1_1_natural_motion_1_1_force_lean_towards_object_helper.html", "class_g_t_a_1_1_natural_motion_1_1_force_lean_towards_object_helper" ],
+    [ "SetStiffnessHelper", "class_g_t_a_1_1_natural_motion_1_1_set_stiffness_helper.html", "class_g_t_a_1_1_natural_motion_1_1_set_stiffness_helper" ],
+    [ "SetMuscleStiffnessHelper", "class_g_t_a_1_1_natural_motion_1_1_set_muscle_stiffness_helper.html", "class_g_t_a_1_1_natural_motion_1_1_set_muscle_stiffness_helper" ],
+    [ "SetWeaponModeHelper", "class_g_t_a_1_1_natural_motion_1_1_set_weapon_mode_helper.html", "class_g_t_a_1_1_natural_motion_1_1_set_weapon_mode_helper" ],
+    [ "RegisterWeaponHelper", "class_g_t_a_1_1_natural_motion_1_1_register_weapon_helper.html", "class_g_t_a_1_1_natural_motion_1_1_register_weapon_helper" ],
+    [ "ShotRelaxHelper", "class_g_t_a_1_1_natural_motion_1_1_shot_relax_helper.html", "class_g_t_a_1_1_natural_motion_1_1_shot_relax_helper" ],
+    [ "FireWeaponHelper", "class_g_t_a_1_1_natural_motion_1_1_fire_weapon_helper.html", "class_g_t_a_1_1_natural_motion_1_1_fire_weapon_helper" ],
+    [ "ConfigureConstraintsHelper", "class_g_t_a_1_1_natural_motion_1_1_configure_constraints_helper.html", "class_g_t_a_1_1_natural_motion_1_1_configure_constraints_helper" ],
+    [ "StayUprightHelper", "class_g_t_a_1_1_natural_motion_1_1_stay_upright_helper.html", "class_g_t_a_1_1_natural_motion_1_1_stay_upright_helper" ],
+    [ "StopAllBehaviorsHelper", "class_g_t_a_1_1_natural_motion_1_1_stop_all_behaviors_helper.html", "class_g_t_a_1_1_natural_motion_1_1_stop_all_behaviors_helper" ],
+    [ "SetCharacterStrengthHelper", "class_g_t_a_1_1_natural_motion_1_1_set_character_strength_helper.html", "class_g_t_a_1_1_natural_motion_1_1_set_character_strength_helper" ],
+    [ "SetCharacterHealthHelper", "class_g_t_a_1_1_natural_motion_1_1_set_character_health_helper.html", "class_g_t_a_1_1_natural_motion_1_1_set_character_health_helper" ],
+    [ "SetFallingReactionHelper", "class_g_t_a_1_1_natural_motion_1_1_set_falling_reaction_helper.html", "class_g_t_a_1_1_natural_motion_1_1_set_falling_reaction_helper" ],
+    [ "SetCharacterUnderwaterHelper", "class_g_t_a_1_1_natural_motion_1_1_set_character_underwater_helper.html", "class_g_t_a_1_1_natural_motion_1_1_set_character_underwater_helper" ],
+    [ "SetCharacterCollisionsHelper", "class_g_t_a_1_1_natural_motion_1_1_set_character_collisions_helper.html", "class_g_t_a_1_1_natural_motion_1_1_set_character_collisions_helper" ],
+    [ "SetCharacterDampingHelper", "class_g_t_a_1_1_natural_motion_1_1_set_character_damping_helper.html", "class_g_t_a_1_1_natural_motion_1_1_set_character_damping_helper" ],
+    [ "SetFrictionScaleHelper", "class_g_t_a_1_1_natural_motion_1_1_set_friction_scale_helper.html", "class_g_t_a_1_1_natural_motion_1_1_set_friction_scale_helper" ],
+    [ "AnimPoseHelper", "class_g_t_a_1_1_natural_motion_1_1_anim_pose_helper.html", "class_g_t_a_1_1_natural_motion_1_1_anim_pose_helper" ],
+    [ "ArmsWindmillHelper", "class_g_t_a_1_1_natural_motion_1_1_arms_windmill_helper.html", "class_g_t_a_1_1_natural_motion_1_1_arms_windmill_helper" ],
+    [ "ArmsWindmillAdaptiveHelper", "class_g_t_a_1_1_natural_motion_1_1_arms_windmill_adaptive_helper.html", "class_g_t_a_1_1_natural_motion_1_1_arms_windmill_adaptive_helper" ],
+    [ "BalancerCollisionsReactionHelper", "class_g_t_a_1_1_natural_motion_1_1_balancer_collisions_reaction_helper.html", "class_g_t_a_1_1_natural_motion_1_1_balancer_collisions_reaction_helper" ],
+    [ "BodyBalanceHelper", "class_g_t_a_1_1_natural_motion_1_1_body_balance_helper.html", "class_g_t_a_1_1_natural_motion_1_1_body_balance_helper" ],
+    [ "BodyFoetalHelper", "class_g_t_a_1_1_natural_motion_1_1_body_foetal_helper.html", "class_g_t_a_1_1_natural_motion_1_1_body_foetal_helper" ],
+    [ "BodyRollUpHelper", "class_g_t_a_1_1_natural_motion_1_1_body_roll_up_helper.html", "class_g_t_a_1_1_natural_motion_1_1_body_roll_up_helper" ],
+    [ "BodyWritheHelper", "class_g_t_a_1_1_natural_motion_1_1_body_writhe_helper.html", "class_g_t_a_1_1_natural_motion_1_1_body_writhe_helper" ],
+    [ "BraceForImpactHelper", "class_g_t_a_1_1_natural_motion_1_1_brace_for_impact_helper.html", "class_g_t_a_1_1_natural_motion_1_1_brace_for_impact_helper" ],
+    [ "BuoyancyHelper", "class_g_t_a_1_1_natural_motion_1_1_buoyancy_helper.html", "class_g_t_a_1_1_natural_motion_1_1_buoyancy_helper" ],
+    [ "CatchFallHelper", "class_g_t_a_1_1_natural_motion_1_1_catch_fall_helper.html", "class_g_t_a_1_1_natural_motion_1_1_catch_fall_helper" ],
+    [ "ElectrocuteHelper", "class_g_t_a_1_1_natural_motion_1_1_electrocute_helper.html", "class_g_t_a_1_1_natural_motion_1_1_electrocute_helper" ],
+    [ "FallOverWallHelper", "class_g_t_a_1_1_natural_motion_1_1_fall_over_wall_helper.html", "class_g_t_a_1_1_natural_motion_1_1_fall_over_wall_helper" ],
+    [ "GrabHelper", "class_g_t_a_1_1_natural_motion_1_1_grab_helper.html", "class_g_t_a_1_1_natural_motion_1_1_grab_helper" ],
+    [ "HeadLookHelper", "class_g_t_a_1_1_natural_motion_1_1_head_look_helper.html", "class_g_t_a_1_1_natural_motion_1_1_head_look_helper" ],
+    [ "HighFallHelper", "class_g_t_a_1_1_natural_motion_1_1_high_fall_helper.html", "class_g_t_a_1_1_natural_motion_1_1_high_fall_helper" ],
+    [ "IncomingTransformsHelper", "class_g_t_a_1_1_natural_motion_1_1_incoming_transforms_helper.html", "class_g_t_a_1_1_natural_motion_1_1_incoming_transforms_helper" ],
+    [ "InjuredOnGroundHelper", "class_g_t_a_1_1_natural_motion_1_1_injured_on_ground_helper.html", "class_g_t_a_1_1_natural_motion_1_1_injured_on_ground_helper" ],
+    [ "CarriedHelper", "class_g_t_a_1_1_natural_motion_1_1_carried_helper.html", "class_g_t_a_1_1_natural_motion_1_1_carried_helper" ],
+    [ "DangleHelper", "class_g_t_a_1_1_natural_motion_1_1_dangle_helper.html", "class_g_t_a_1_1_natural_motion_1_1_dangle_helper" ],
+    [ "OnFireHelper", "class_g_t_a_1_1_natural_motion_1_1_on_fire_helper.html", "class_g_t_a_1_1_natural_motion_1_1_on_fire_helper" ],
+    [ "PedalLegsHelper", "class_g_t_a_1_1_natural_motion_1_1_pedal_legs_helper.html", "class_g_t_a_1_1_natural_motion_1_1_pedal_legs_helper" ],
+    [ "PointArmHelper", "class_g_t_a_1_1_natural_motion_1_1_point_arm_helper.html", "class_g_t_a_1_1_natural_motion_1_1_point_arm_helper" ],
+    [ "PointGunHelper", "class_g_t_a_1_1_natural_motion_1_1_point_gun_helper.html", "class_g_t_a_1_1_natural_motion_1_1_point_gun_helper" ],
+    [ "PointGunExtraHelper", "class_g_t_a_1_1_natural_motion_1_1_point_gun_extra_helper.html", "class_g_t_a_1_1_natural_motion_1_1_point_gun_extra_helper" ],
+    [ "RollDownStairsHelper", "class_g_t_a_1_1_natural_motion_1_1_roll_down_stairs_helper.html", "class_g_t_a_1_1_natural_motion_1_1_roll_down_stairs_helper" ],
+    [ "ShotHelper", "class_g_t_a_1_1_natural_motion_1_1_shot_helper.html", "class_g_t_a_1_1_natural_motion_1_1_shot_helper" ],
+    [ "ShotNewBulletHelper", "class_g_t_a_1_1_natural_motion_1_1_shot_new_bullet_helper.html", "class_g_t_a_1_1_natural_motion_1_1_shot_new_bullet_helper" ],
+    [ "ShotSnapHelper", "class_g_t_a_1_1_natural_motion_1_1_shot_snap_helper.html", "class_g_t_a_1_1_natural_motion_1_1_shot_snap_helper" ],
+    [ "ShotShockSpinHelper", "class_g_t_a_1_1_natural_motion_1_1_shot_shock_spin_helper.html", "class_g_t_a_1_1_natural_motion_1_1_shot_shock_spin_helper" ],
+    [ "ShotFallToKneesHelper", "class_g_t_a_1_1_natural_motion_1_1_shot_fall_to_knees_helper.html", "class_g_t_a_1_1_natural_motion_1_1_shot_fall_to_knees_helper" ],
+    [ "ShotFromBehindHelper", "class_g_t_a_1_1_natural_motion_1_1_shot_from_behind_helper.html", "class_g_t_a_1_1_natural_motion_1_1_shot_from_behind_helper" ],
+    [ "ShotInGutsHelper", "class_g_t_a_1_1_natural_motion_1_1_shot_in_guts_helper.html", "class_g_t_a_1_1_natural_motion_1_1_shot_in_guts_helper" ],
+    [ "ShotHeadLookHelper", "class_g_t_a_1_1_natural_motion_1_1_shot_head_look_helper.html", "class_g_t_a_1_1_natural_motion_1_1_shot_head_look_helper" ],
+    [ "ShotConfigureArmsHelper", "class_g_t_a_1_1_natural_motion_1_1_shot_configure_arms_helper.html", "class_g_t_a_1_1_natural_motion_1_1_shot_configure_arms_helper" ],
+    [ "SmartFallHelper", "class_g_t_a_1_1_natural_motion_1_1_smart_fall_helper.html", "class_g_t_a_1_1_natural_motion_1_1_smart_fall_helper" ],
+    [ "StaggerFallHelper", "class_g_t_a_1_1_natural_motion_1_1_stagger_fall_helper.html", "class_g_t_a_1_1_natural_motion_1_1_stagger_fall_helper" ],
+    [ "TeeterHelper", "class_g_t_a_1_1_natural_motion_1_1_teeter_helper.html", "class_g_t_a_1_1_natural_motion_1_1_teeter_helper" ],
+    [ "UpperBodyFlinchHelper", "class_g_t_a_1_1_natural_motion_1_1_upper_body_flinch_helper.html", "class_g_t_a_1_1_natural_motion_1_1_upper_body_flinch_helper" ],
+    [ "YankedHelper", "class_g_t_a_1_1_natural_motion_1_1_yanked_helper.html", "class_g_t_a_1_1_natural_motion_1_1_yanked_helper" ],
+    [ "AdaptiveMode", "_euphoria_helpers_8cs.html#ad99728b42cb176f95488ba70c676ff2e", [
+      [ "NotAdaptive", "_euphoria_helpers_8cs.html#ad99728b42cb176f95488ba70c676ff2ea4ad7aadfbdba4674b91b34ffd5d9a638", null ],
+      [ "OnlyDirection", "_euphoria_helpers_8cs.html#ad99728b42cb176f95488ba70c676ff2eaba8bff06b869fb380cd703e112b7c3d3", null ],
+      [ "DirectionAndSpeed", "_euphoria_helpers_8cs.html#ad99728b42cb176f95488ba70c676ff2eae702dd1833d03e042edce41a763ed593", null ],
+      [ "DirectionSpeedAndStrength", "_euphoria_helpers_8cs.html#ad99728b42cb176f95488ba70c676ff2eae0088214ae4b1a699a8bce03ad57930f", null ]
+    ] ],
+    [ "AnimSource", "_euphoria_helpers_8cs.html#afa8d6404b65fc5e0c0f75b507efbedf2", [
+      [ "CurrentItems", "_euphoria_helpers_8cs.html#afa8d6404b65fc5e0c0f75b507efbedf2abbf3ab321a9c9dd495ba32be26cacdcf", null ],
+      [ "PreviousItems", "_euphoria_helpers_8cs.html#afa8d6404b65fc5e0c0f75b507efbedf2a403306b0d6840701a46b88247d6b4829", null ],
+      [ "AnimItems", "_euphoria_helpers_8cs.html#afa8d6404b65fc5e0c0f75b507efbedf2a3ceda522e591be8f9ece26d2b029abd0", null ]
+    ] ],
+    [ "ArmDirection", "_euphoria_helpers_8cs.html#aff5f29d539923e6d825a90194969d2b6", [
+      [ "Backwards", "_euphoria_helpers_8cs.html#aff5f29d539923e6d825a90194969d2b6a9d1104e419414f4c268be7211fb8fc4a", null ],
+      [ "Adaptive", "_euphoria_helpers_8cs.html#aff5f29d539923e6d825a90194969d2b6a1244cba6ca79bfda45de46141d32ea7b", null ],
+      [ "Forwards", "_euphoria_helpers_8cs.html#aff5f29d539923e6d825a90194969d2b6a1e411b48c18c85a91ad46b53ebb24d6a", null ]
+    ] ],
+    [ "FallType", "_euphoria_helpers_8cs.html#a054bd4b7173c73c3adeb960af60f244d", [
+      [ "RampDownStiffness", "_euphoria_helpers_8cs.html#a054bd4b7173c73c3adeb960af60f244da710e69148d1e854d18ad30c078da0959", null ],
+      [ "DontChangeStep", "_euphoria_helpers_8cs.html#a054bd4b7173c73c3adeb960af60f244da0d42761a4b0cb7a1fbcb3b7e1e310f84", null ],
+      [ "ForceBalance", "_euphoria_helpers_8cs.html#a054bd4b7173c73c3adeb960af60f244da6c5c98eaafe83eab28d4a0b4827458a9", null ],
+      [ "Slump", "_euphoria_helpers_8cs.html#a054bd4b7173c73c3adeb960af60f244dac5ca985e7c730b33c558f57b4cbc1b53", null ]
+    ] ],
+    [ "Hand", "_euphoria_helpers_8cs.html#a9e177fb94cd67583d932c84e3a64f326", [
+      [ "Left", "_euphoria_helpers_8cs.html#a9e177fb94cd67583d932c84e3a64f326a945d5e233cf7d6240f6b783b36a374ff", null ],
+      [ "Right", "_euphoria_helpers_8cs.html#a9e177fb94cd67583d932c84e3a64f326a92b09c7c48c520c3c55e497875da437c", null ]
+    ] ],
+    [ "MirrorMode", "_euphoria_helpers_8cs.html#a3a07a674735f088d941934880a504894", [
+      [ "Independant", "_euphoria_helpers_8cs.html#a3a07a674735f088d941934880a504894ab06a91757225a6da3cd67bfb71b957aa", null ],
+      [ "Mirrored", "_euphoria_helpers_8cs.html#a3a07a674735f088d941934880a504894a3db6ae5ba47a2ce45b4788135adc8dcf", null ],
+      [ "Parallel", "_euphoria_helpers_8cs.html#a3a07a674735f088d941934880a504894a98402eecfbcefc336954458a01752131", null ]
+    ] ],
+    [ "RbTwistAxis", "_euphoria_helpers_8cs.html#a5074ca7398df527b2eba84d420848297", [
+      [ "WorldUp", "_euphoria_helpers_8cs.html#a5074ca7398df527b2eba84d420848297a1f7cb056d11333c4411289f7d10fedb5", null ],
+      [ "CharacterComUp", "_euphoria_helpers_8cs.html#a5074ca7398df527b2eba84d420848297a223b605959d724d57df4be5eb717baf4", null ]
+    ] ],
+    [ "Synchroisation", "_euphoria_helpers_8cs.html#aeb80f2352db53ced23afdb58a616a945", [
+      [ "NotSynced", "_euphoria_helpers_8cs.html#aeb80f2352db53ced23afdb58a616a945ae3e602024073ed9b5806a25f474dcd43", null ],
+      [ "AlwaysSynced", "_euphoria_helpers_8cs.html#aeb80f2352db53ced23afdb58a616a945a5fef64ca7328bf2f3dc60125a65a34e2", null ],
+      [ "SyncedAtStart", "_euphoria_helpers_8cs.html#aeb80f2352db53ced23afdb58a616a945aac547bd575dfe9e7c9e6c4ae8b05c5a7", null ]
+    ] ],
+    [ "TorqueFilterMode", "_euphoria_helpers_8cs.html#a29a0aa54348503cff43f3b50787020b1", [
+      [ "ApplyEveryBullet", "_euphoria_helpers_8cs.html#a29a0aa54348503cff43f3b50787020b1aa469448df633c6d5a0c668878f2cbda6", null ],
+      [ "ApplyIfLastFinished", "_euphoria_helpers_8cs.html#a29a0aa54348503cff43f3b50787020b1a0c3929a80ff0cd99b0b5d0dbe1e7fb57", null ],
+      [ "ApplyIfSpinDifferent", "_euphoria_helpers_8cs.html#a29a0aa54348503cff43f3b50787020b1ab98eac9a2af879cb678c810f2be3c924", null ]
+    ] ],
+    [ "TorqueMode", "_euphoria_helpers_8cs.html#a7f63b389858d9eec09833e2c767f8d76", [
+      [ "Disabled", "_euphoria_helpers_8cs.html#a7f63b389858d9eec09833e2c767f8d76ab9f5c797ebbf55adccdd8539a65a0241", null ],
+      [ "Proportional", "_euphoria_helpers_8cs.html#a7f63b389858d9eec09833e2c767f8d76aac13b33ebc8ea372dfb07e5ed4d9655f", null ],
+      [ "Additive", "_euphoria_helpers_8cs.html#a7f63b389858d9eec09833e2c767f8d76a3f7b3d8ee7bf0d542bd50821c083888f", null ]
+    ] ],
+    [ "TorqueSpinMode", "_euphoria_helpers_8cs.html#ac29dbc92839cd1961da0df4437064556", [
+      [ "FromImpulse", "_euphoria_helpers_8cs.html#ac29dbc92839cd1961da0df4437064556a2e83dbdaf41de2a1c9f82e6c6ea9c66a", null ],
+      [ "Random", "_euphoria_helpers_8cs.html#ac29dbc92839cd1961da0df4437064556a64663f4646781c9c0110838b905daa23", null ],
+      [ "Flipping", "_euphoria_helpers_8cs.html#ac29dbc92839cd1961da0df4437064556a824439fc30c09d3549729feb84e0afe8", null ]
+    ] ],
+    [ "TurnType", "_euphoria_helpers_8cs.html#a165412f495bc4feb7b4b92c203801b49", [
+      [ "DontTurn", "_euphoria_helpers_8cs.html#a165412f495bc4feb7b4b92c203801b49aff6c5e5f85e1687981561fe0d67bed75", null ],
+      [ "ToTarget", "_euphoria_helpers_8cs.html#a165412f495bc4feb7b4b92c203801b49af614477ec2afe0bcb59b439bef2021ee", null ],
+      [ "AwayFromTarget", "_euphoria_helpers_8cs.html#a165412f495bc4feb7b4b92c203801b49ad35cb27dfcf6c582f2a6e15d9dc0e618", null ]
+    ] ],
+    [ "WeaponMode", "_euphoria_helpers_8cs.html#a9f22f7c9b1baf003515faad02ebe93f0", [
+      [ "None", "_euphoria_helpers_8cs.html#a9f22f7c9b1baf003515faad02ebe93f0a6adf97f83acf6453d4a6a4b1070f3754", null ],
+      [ "Pistol", "_euphoria_helpers_8cs.html#a9f22f7c9b1baf003515faad02ebe93f0a524b64722661b303ed5754c492c0ef14", null ],
+      [ "Dual", "_euphoria_helpers_8cs.html#a9f22f7c9b1baf003515faad02ebe93f0acf53591af1208ddd535806600273099a", null ],
+      [ "Rifle", "_euphoria_helpers_8cs.html#a9f22f7c9b1baf003515faad02ebe93f0a6fe1a54664b1d4283b3b028fdc0f77a3", null ],
+      [ "SideArm", "_euphoria_helpers_8cs.html#a9f22f7c9b1baf003515faad02ebe93f0ac5e937fbfde26f2f8e6a964d6719be21", null ],
+      [ "PistolLeft", "_euphoria_helpers_8cs.html#a9f22f7c9b1baf003515faad02ebe93f0ace882d6f8d647ddf09e0671d88ba8b36", null ],
+      [ "PistolRight", "_euphoria_helpers_8cs.html#a9f22f7c9b1baf003515faad02ebe93f0af1d96098dec087dbc152bb02a8af1173", null ]
+    ] ]
+];
